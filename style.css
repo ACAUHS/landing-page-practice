@@ -1,6 +1,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     margin: 0px !important;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -40,7 +42,7 @@ button a {
 }
 
 .first-container {
-    border: 2px solid;
+    /* border: 2px solid; */
     background-color: #1F2937;
 }
 
@@ -61,12 +63,35 @@ button a {
 }
 
 .second-container {
-    /* border: 2px solid; */
+     /* border: 2px solid; */
+     text-align: center;
+}
+
+.second-allimages {
+    display: flex;
+    /* border: 2px solid;  */
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    padding: 4em 1em ;
 }
 
 /*I don't think this needs to be flexed? or maybe it does*/
 .second-content {
-    /* border: 2px solid; */
+     display: flex;
+     flex-wrap: wrap;
+     width: 250px;
+     height: 275px;
+     justify-content: center;
+
+}
+
+.second-content img {
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #3882F6;
+    width: 200px;
+    height: auto;
 }
 
 .third-container {

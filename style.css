@@ -19,7 +19,6 @@ li a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-    display: inline;
 }
 
 button {
@@ -110,6 +109,29 @@ h2 {
     /* border: 2px solid; */
 }
 
+.fourth-content-container {
+    background-color: #3882F6;
+    margin: 4em 6em;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.left-side-fourth {
+
+}
+
+.left-side-fourth p:first-child {
+    color: #F9FAF8;
+    font-size: large;
+    font-weight: 500;
+}
+
+.left-side-fourth p:last-child {
+    color: #E5E7EB;
+}
+
 .footer{
     /* border: 2px solid; */
     text-align: center;
@@ -154,4 +176,8 @@ h2 {
     margin-top: -30px;
     color: #1F2937;
     font-weight: bolder;
+}
+
+#fourth-button {
+    border: 2px solid #E5E7EB;
 }

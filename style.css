@@ -6,7 +6,9 @@ body {
 }
 
 img {
-    width: 100px
+    width: 500px;
+    height: 250px;
+    margin-right: 35px;
 }
 
 ul {
@@ -54,10 +56,16 @@ h2 {
 .first-top {
      /* border: 2px solid;  */
      display: flex;
+     margin-left: 38px;
 }
 
 .first-content {
     display: flex;
+    padding: 10em;
+    justify-content: center;
+    align-items: center;
+    margin: -100px;
+    gap: 20px
 }
 
 .right-links {
@@ -65,6 +73,7 @@ h2 {
     display: flex;
     align-items: center;
     padding: 1em;
+    margin-right: 60px;
 }
 
 .second-container {
@@ -160,6 +169,7 @@ h2 {
 #hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    flex-shrink: 0;
 }
 
 #third-content {

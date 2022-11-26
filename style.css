@@ -116,20 +116,20 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-grow: 1;
-}
-
-.left-side-fourth {
-
+    align-items: center;
 }
 
 .left-side-fourth p:first-child {
     color: #F9FAF8;
     font-size: large;
     font-weight: 500;
+    /* border: 2px solid; */
+    margin-bottom: -15px;
 }
 
 .left-side-fourth p:last-child {
     color: #E5E7EB;
+    /* border: 2px solid; */
 }
 
 .footer{
@@ -173,11 +173,12 @@ h2 {
     /* border: 2px solid; */
     display: flex;
     flex-direction: row-reverse;
-    margin-top: -30px;
+    margin-top: -28px;
     color: #1F2937;
     font-weight: bolder;
 }
 
 #fourth-button {
     border: 2px solid #E5E7EB;
+    height: min-content;
 }
